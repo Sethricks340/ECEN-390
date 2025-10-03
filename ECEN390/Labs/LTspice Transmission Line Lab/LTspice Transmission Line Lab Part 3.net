@@ -1,9 +1,0 @@
-* C:\Users\sethr\OneDrive\Desktop\ECEN-390\ECEN390\Labs\LTspice Transmission Line Lab\LTspice Transmission Line Lab Part 3.asc
-Vg N001 0 SINE(0 1V 50MegHz)
-T1 Va 0 Vload N002 Td=5n Z0=60ohm
-Rload Vload N002 36ohm
-Rg Va N001 100ohm
-* Seth Ricks
-.tran 200ns
-.backanno
-.end
